@@ -1,0 +1,91 @@
+section {
+
+    height: 500px;
+}
+
+.bg1 {
+    background: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-textbox {
+    color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 40%;
+    background-color: rgba(30, 29, 29, 0.484);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.btnstyle {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.don-today {
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.don-property {
+    margin-left: 20px;
+    background-color: #FAFAFA;
+    padding: 10px 20px;
+}
+
+.activatediv {
+    background-color: #ff595922;
+    border: 1px solid tomato;
+    color: #FF5959;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    margin-bottom: 30px;
+}
+
+.inputbox {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+input {
+    width: 500px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+input:focus {
+    border-color: gray;
+    border: 2px dashed tomato;
+    height: 40px;
+
+}
+
+.footersec {
+    color: gray;
+    text-align: center;
+    background-color: black;
+    padding-top: 2px;
+}
