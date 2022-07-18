@@ -7,6 +7,10 @@ section {
     background: url(images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header-textbox {
@@ -14,8 +18,6 @@ section {
     width: 500px;
     height: 200px;
     text-align: center;
-    padding-top: 100px;
-    margin-left: 40%;
     background-color: rgba(30, 29, 29, 0.484);
     font-family: 'Montserrat', sans-serif;
 
@@ -66,17 +68,22 @@ h1 {
 .inputbox {
     text-align: center;
     margin-top: 50px;
-    width: 500px;
+    width: 400px;
     margin-bottom: 30px;
     outline: 0;
-    border-width: 0 0 2px;
-    border-color: blue;
+    /* border-width: 0 0 2px;
+    border-color: blue; */
+    border: none;
+    border-bottom: 2px solid blue;
 
 
 }
 
 .inputalign {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -96,23 +103,29 @@ h1 {
 
 .donate-blog {
     display: flex;
+    border: 1px solid red;
+    padding: 5px;
+    justify-content: space-around;
 }
 
 .blog-part {
-    width: 30%;
     border: 1px solid gray;
     text-align: center;
     padding: 10px;
-    margin: 5px;
 }
 
-.blog-part-2 {
-    width: 50%;
-
-    padding: 10px;
-    margin-left: 10%;
-
+.blog2-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
+
+.blog2-flex img {
+    width: 80%;
+}
+
+
 
 .blog-bg-1 {
     background-color: #4f9da60e;
